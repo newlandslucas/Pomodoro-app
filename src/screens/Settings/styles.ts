@@ -22,7 +22,7 @@ export const Greeting = styled.Text`
 export const UserName = styled.Text`
     font-size: 30px;
     font-weight: bold;
-    color: #4885ed
+    color: #4885ed;
 `;
 
 export const WrapperPhoto = styled.TouchableOpacity`
