@@ -3,7 +3,6 @@ import styled from "styled-components/native";
 export const Container = styled.View`
     width: 300px;
     height: 300px;
-    
 `;
 
 export const Wrapper = styled.View`
@@ -14,6 +13,8 @@ export const Wrapper = styled.View`
     align-items: center;
     border-width: 2px;
     border-radius: 150px;
+    margin-bottom: 15px;
+    margin-top: -90px;
 `;
 
 export const Hour = styled.Text`
@@ -37,16 +38,17 @@ export const Minutes = styled.Text`
 
 export const ButtonContainer = styled.View`
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 200px;
+    justify-content: center;
 `;
 export const ButtonWrapper = styled.TouchableOpacity`
-    width: 125px;
+    width: 150px;
     height: 50px;
     background-color: #000000;
-   margin-top: 35px;
+    margin-top: 35px;
    justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
 
 `;
 
@@ -57,7 +59,7 @@ export const Button = styled.Text`
 `;
 
 export const ResetButtonWrapper = styled.TouchableOpacity`
-    width: 125px;
+    width: 150px;
     height: 50px;
     background-color: #FFFFFF;
     margin-top: 35px;
@@ -66,7 +68,8 @@ export const ResetButtonWrapper = styled.TouchableOpacity`
     margin-left: 25px;
 
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 10px;
+
 `;
 
 export const ResetButton = styled.Text`
