@@ -6,6 +6,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import Home from '../screens/Home';
+import Settings from '../screens/Settings';
 
 
 const { Navigator, Screen } = createBottomTabNavigator();
@@ -35,7 +36,7 @@ const AppRoutes = () => {
                 })
             }}
             />
-            <Screen name="Settings" component={Home}
+            <Screen name="Settings" component={Settings}
              options={{
                 tabBarIcon: (({size, color}) => {
                     return <FontAwesome name="user-o" size={size} color={color} />
