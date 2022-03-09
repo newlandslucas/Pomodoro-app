@@ -38,7 +38,7 @@ export const Minutes = styled.Text`
 
 export const ButtonContainer = styled.View`
     flex-direction: row;
-    margin-top: 200px;
+    margin-top: 170px;
     justify-content: center;
 `;
 export const ButtonWrapper = styled.TouchableOpacity`

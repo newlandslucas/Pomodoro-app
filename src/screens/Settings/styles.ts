@@ -2,13 +2,14 @@ import styled from "styled-components/native";
 
 export const Container = styled.View`
     flex: 1;
-    background-color: #DDDDDD ;
+    background-color: #FFFFFF ;
 `;
 
 export const Header = styled.SafeAreaView`
     width: 100%;
-    height: 200px;
+    height: 175px;
     flex-direction: row;
+    border-bottom-width: 0.3px;
 `;
 
 export const GreetingWrapper = styled.View`
